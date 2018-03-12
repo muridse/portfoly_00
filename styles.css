@@ -1,6 +1,10 @@
 .pin {
-	padding-left: 70%;
-    margin-top: -300px;
-    font-size: 100px;
-
+	padding-left: 40%;
+    margin-top: -30%;
+    font-size: 800%;
+}
+.image {
+    max-width: 30%; 
+    max-height: 30%;
+    margin-right: 60%;
 }
