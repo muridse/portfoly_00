@@ -1,0 +1,10 @@
+body{
+	background: pink;
+}
+img{
+	max-height: 300px;
+}
+#main{
+	text-align: center;
+	color: white;
+}
