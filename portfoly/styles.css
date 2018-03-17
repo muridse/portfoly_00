@@ -1,6 +1,14 @@
 body{
 	background: pink;
 }
+section{
+	float: right;
+	width: 75%
+}
+aside{
+	float: left;
+	width: 25%
+}
 img{
 	max-height: 300px;
 }
