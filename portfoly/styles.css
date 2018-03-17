@@ -8,3 +8,30 @@ img{
 	text-align: center;
 	color: white;
 }
+#guns_1{
+ 	position: absolute;
+	left: 34%;
+	bottom: 90%;
+	max-height: 8%;
+}
+#guns_2{
+ 	position: absolute;
+	left: 55%;
+	bottom: 90%;
+	max-height: 8%;
+}
+#log{
+	text-align: right;
+
+}
+#form{
+	position: absolute;
+	text-align: center;
+	left: 42%
+}
+#puss{
+	color: green;
+}
+address{
+	text-align: center;
+}
