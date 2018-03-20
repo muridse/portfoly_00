@@ -4,84 +4,89 @@
 	<title>Any Forms</title>
 	<link rel="stylesheet" type="text/css" href="../styles.css">
 </head>
-<body>
-<div>
-	<h1 id="main"><a href="../index.html">My page</a></h1>
-	<hr color="white">
-</div>
-<div>
-	<img class="img" id="guns_1" src="../images/1.png">
-	<img class="img" id="guns_2" src="../images/2.png">
-</div>
-<div id="log">
-	<form action=auth.php" method="post">
-		<input type="text" name="name" placeholder="Enter name">
-		<input type="password" name="pass" placeholder="Enter password">
-		<button type="reset">Reset</button>
-		<button type="submit">Sent</button>
-	</form> 
-</div>
-<div id="form">
-	<h2>Buy my weapon</h2>
-	<form action="order.php" method="post">
-		<div>
-			<span>Pls, select gun</span>
-			<select name="gun_value">
-				<option value="Colt_1911">Colt 1911</option>
-				<option value="AM_CAR">AM CAR</option>
-				<option value="AK_47">AK 47</option>
-				<option value="TEC_9">TEC-9</option>
-			</select>
-		</div>
-		<div>
-			<label><span>Name</span>
-				<input type="text" name="f.name" placeholder="First name">
-			</label>
-		</div>
-		<div>
-			<label><span>Second Name</span>
-				<input type="text" name="s.name" placeholder="Second name">
-			</label>
-		</div>
-		<div>
-			<label><span>Adress</span>
-				<input type="text" name="post" placeholder="Adress"> 
-			</label>
-		</div>
-		<div>
-			<label><span>T.Number</span>
-				<input type="number" name="number" placeholder="Telephone number">
-			</label>
-		</div>
-		<div>
-			<label><span>Gender</span>
-				<input type="radio" name="gender" value="male"><span>Male</span> 
-				<input type="radio" name="gender" value="female"><span>Female</span>
-			</label>
-		</div>
-		<div>
-			<label><span>Date</span>
-				<input type="date" name="date" id="roru"> 
-			</label>
-		</div>
-		<div id="puss">
-			<input type="checkbox" name="gift" value="ammo">
-			<span>Give mine free gift(ammo)</span>
-		</div>
-		<div id="puss">
-			<input type="checkbox" name="email-sender" value="sender" checked>
-			<span>Send news on my e-mail</span>
-		</div>
-		<div>			
-				<button type="submit">Confirm</button>
-		</div>
-	</form>
-</div>
-<div>
-	<address>
-		Город: <b>Москва</b>
-		Телефон: <b>88007353535</b>
-	</address>
-</div>
+	<div class="wrap">
+			<header>
+				<h1 class="main"><a href="../index.html">My page</a></h1>
+				<hr color="white">
+			</header>
+			<aside class="menu">
+				<img class="main_img" src="../images/1.png">
+				<img class="main_img" src="../images/2.png">
+			</aside>
+			<div class="container">
+				<div class="login">
+					<form action=auth.php" method="post">
+						<input type="text" name="name" placeholder="Enter name">
+						<input type="password" name="pass" placeholder="Enter password">
+						<button type="reset">Reset</button>
+						<button type="submit">Sent</button>
+					</form> 
+				</div>
+				<div class="form">
+					<h2>Buy my weapon</h2>
+					<form action="order.php" method="post">
+							<div class="form_1">
+								<span>Pls, select gun</span>
+								<select name="gun_value">
+									<option value="Colt_1911">Colt 1911</option>
+									<option value="AM_CAR">AM CAR</option>
+									<option value="AK_47">AK 47</option>
+									<option value="TEC_9">TEC-9</option>
+								</select>
+							</div>
+							<div class="form_1">
+								<label><span>Name</span>
+									<input type="text" name="f.name" placeholder="First name">
+								</label>
+							</div>
+							<div class="form_1">
+								<label><span>Second Name</span>
+									<input type="text" name="s.name" placeholder="Second name">
+								</label>
+							</div>
+							<div class="form_1">
+								<label><span>Adress</span>
+									<input type="text" name="post" placeholder="Adress"> 
+								</label>
+							</div>
+							<div class="form_1">
+								<label><span>T.Number</span>
+									<input type="number" name="number" placeholder="Telephone number">
+								</label>
+							</div>
+							<div class="form_1">					
+								<label><span>Gender</span>
+									<input type="radio" name="gender" value="male"><span>Male</span> 
+									<input type="radio" name="gender" value="female"><span>Female</span>
+								</label>
+							</div>
+							<div class="form_1">
+								<label><span>Date</span>
+									<input type="date" name="date" id="roru"> 
+								</label>
+							</div>
+							<div class="form_1">
+								<input type="checkbox" name="gift" value="ammo">
+								<span>Give mine free gift(ammo)</span>
+							</div>
+							<div class="form_1">
+								<input type="checkbox" name="email-sender" value="sender" checked>
+								<span>Send news on my e-mail</span>
+							</div>
+							<div class="form_1">		
+									<button type="submit">Confirm</button>
+									<button type="reset">Clear</button>
+							</div>
+					</form>
+				</div>
+			</div>
+			<div class="warning">
+				<p><b>P.S.</b> I do not sell weapons. Putin, please do not put me in prison</p>
+			</div>
+		<address>
+			Город: <b>Москва</b>
+			Телефон: <b>88007353535</b>
+		</address>
+	</div>
 </body>
 </html>
